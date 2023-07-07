@@ -1,0 +1,23 @@
+item.push()         -           add item no final do conjunto
+item.pop()          -           remove item do final do conjunto
+item.unshift()      -           add item no começo do conjunto
+item.shift()        -           remove item do começo do conjunto
+
+let index = item.indexOf("item");                   -               procura um index por item
+
+let index = 1, pos = 2;
+let remove = conjunto.splice(pos, n);               -               remove itens por index
+
+let copy = conjunto.slice();
+let copy_index_zero = conjunto.slice()[0];          -               copy conjunto
+
+let tamanho = conjunto.length();                    -               vê o tamanho do conjunto
+
+let existe = conjunto.includes("item");             -               verifica se está incluido no conjunto
+
+let variavel = {
+    item 1,
+    item 2,                                         -               Objeto
+    item 3                                      
+}           
+
