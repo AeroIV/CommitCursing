@@ -21,3 +21,28 @@ let variavel = {
     item 3                                      
 }           
 
+___________________________________________________________________________________________________________________
+
+for( in )                                           -              pega o index dos itens da array
+for( of )                                           -              pega os itens da array
+
+object.key()                                        -              ex: nome:
+object.values()                                     -              ex: Batman
+object.entries()                                    -              ex: nome: Batman
+
+
+forEach()                                           -              Executa uma ação para cada item de uma Array
+filter()                                            -              Cria uma nova Array 
+findIndex()                                         -              Retorna o index de determinado item, através de uma função
+
+
+
+
+
+
+
+/*let valoratual = 0
+for(let valor in Object.values(listaDeCompras.Produtos)){
+    valoratual = valoratual + Object.values(listaDeCompras.Produtos)[valor]
+}
+console.log(valoratual)*/
