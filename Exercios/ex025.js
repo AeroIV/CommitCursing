@@ -10,3 +10,4 @@ for(let nota in Object.values(imdbNotas)) {
         notaZero = Object.entries(imdbNotas)[nota]    
 }
 console.log(notaZero)
+
