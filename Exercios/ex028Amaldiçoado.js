@@ -6,8 +6,8 @@ let escolhidos = palavras.map(palavra => {
   }
 });
 
-escolhidos = escolhidos.filter(palavra => palavra !== undefined);
-console.log(escolhidos)
+// escolhidos = escolhidos.filter(palavra => palavra !== undefined);
+// console.log(escolhidos)
 
 // let palavras = ["barco","elo" ,"Par" ,"jicuraru", "jiboia", "januario", "avon", "SonimBlaybe", "SinimCleyNhim", "SonimVeltom"];
 // const contagem = palavras.map(function filtro(palavras){

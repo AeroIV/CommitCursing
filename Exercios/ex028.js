@@ -1,6 +1,6 @@
 function filtrarString(array){
     return array.filter(function(string){
-        return string.length > 5;
+        return string.length >= 5;
     })
 }
 
