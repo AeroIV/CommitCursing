@@ -46,3 +46,12 @@ for(let valor in Object.values(listaDeCompras.Produtos)){
     valoratual = valoratual + Object.values(listaDeCompras.Produtos)[valor]
 }
 console.log(valoratual)*/
+
+___________________________________________________________________________________________________________________
+
+
+async function(){
+    await ação;                                     -              Função assincrona
+}
+
+
