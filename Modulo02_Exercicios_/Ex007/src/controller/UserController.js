@@ -2,7 +2,7 @@ const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
 module.exports = {
-    async criarUsuario(req, res) {
+    async createUsuario(req, res) {
         const { nome, email } = req.body;
         try {
             const userExistente = await prisma.user.findFirst({
@@ -70,6 +70,30 @@ module.exports = {
 
         } catch (error) {
             res.json(error)
+        }
+    },
+
+    async deleteUser(req, res) {
+        try {
+            const { id } = req.params;
+
+            const user = await prisma.user.findUnique({
+                where: { id: parseInt(id)},
+            });
+
+            if (!user) {
+                return res.json({ error: "ERROR: This user don't exist, please try again." });
+            } else {
+                
+            }
+
+            user = await prisma.user.delete({
+                where: { id: parseInt(id) }
+            });
+            return res.json("This user is deleted. Sorry.");
+
+        } catch (error) {
+            res.json(error);
         }
     },
 };
