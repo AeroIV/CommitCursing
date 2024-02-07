@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {   
+    border-radius: 10px;
+    border: 2px solid #1babb6;
+    padding: 20px;
+
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #32dd8d;
+    width: 100%;
+    box-sizing: border-box;
+}
