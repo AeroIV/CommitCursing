@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 50px;
     padding: 0;
     height: 100vh;
     display: flex;
@@ -9,11 +9,11 @@ body {
 
 selection {   
     border-radius: 10px;
-    border: 2px solid #23c473;
+    border: 2px solid #9816d4;
     padding: 20px;
 }
 
-#cadastro {
+#perfil {
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ input {
     margin-bottom: 10px;
     padding: 8px;
     border-radius: 5px;
-    border: 1px solid #32dd8d;
+    border: 1px solid #a91fcc;
     width: 100%;
     box-sizing: border-box;
 }
